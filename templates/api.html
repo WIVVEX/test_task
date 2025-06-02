@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+Weather API
+{% endblock %}
+
+
+
+{% block body %}
+<h1 class="api"> API DOCS</h1>
+<p class="apitext"> To get all the data from the database you need to use this link </p>
+<p class="apitext"> http://127.0.0.1:3213/api/cities/all </p>
+<p class="apilink"><a class="apilink" href="http://127.0.0.1:3213/api/cities/all">CLICK</a></p>
+<br>
+<p class="apitext"> To get information about 1 city use this link </p>
+<p class="apitext"> http://127.0.0.1:3213/api/cities/{city ​​name with capital letter} </p>
+<p class="apilink"><a class="apilink" href="http://127.0.0.1:3213/api/cities/Moscow">CLICK</a></p>
+<br>
+<p class="apitext" >**Api only supports data output</p>
+{% endblock %}

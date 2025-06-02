@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 800 800" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 21.12 13 C 17.37 13 14.24 15.66 13.45 19.22 L 12.81 19.22 C 10.16 19.22 8 21.42 8 24.11 C 8 26.8 10.17 29 12.81 29 L 21.12 29 C 25.47 29 29 25.42 29 21 C 29 16.58 25.47 13 21.12 13 Z M 21.12 13 " transform="matrix(25,0,0,25,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 5 14 L 3 14 " transform="matrix(25,0,0,25,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 20.36 7.64 L 21.78 6.22 " transform="matrix(25,0,0,25,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 14 5 L 14 3 " transform="matrix(25,0,0,25,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 7.64 7.64 L 6.22 6.22 " transform="matrix(25,0,0,25,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 11.44 19.43 C 9.41 18.47 8 16.4 8 14 C 8 10.69 10.69 8 14 8 C 17.01 8 19.5 10.21 19.93 13.1 " transform="matrix(25,0,0,25,0,0)"/>
+</g>
+</svg>

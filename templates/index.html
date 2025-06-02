@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+Weather
+{% endblock %}
+
+
+
+{% block body %}
+<div class="hero container">
+    <div class="hero--info">
+        <h2>Your trusted sky guide</h2>
+        <h1>Know before you go</h1>
+        <br>
+        <form method="POST">
+            <input class="input" type="text" name="city" placeholder="Enter city" required>
+            <button class="btn" type="submit"> Show weather</button>
+        </form>
+        <img src="{{ url_for('static', filename=icon_path)}}" alt="">
+        <ul class="weather-info">
+            {% for key, value in wd.items() %}
+                <li>
+                    <span class="key">{{ key }}</span>
+                    <span class="value">{{ value }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+    
+</div>
+{% endblock %}

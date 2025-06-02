@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+Weather Stats
+{% endblock %}
+
+
+
+{% block body %}
+<h1 class="table-header">Сity ​​statistics</h1>
+<table class="data-table">
+    <thead>
+        <tr>
+            <th class="sortable-header" onclick=sortTable(0)>ID ▲▼</th>
+            <th class="sortable-header" onclick=sortTable(1)>City ▲▼</th>
+            <th class="sortable-header" onclick=sortTable(2)>Number of requests▲▼</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for cit in cities %}
+        <tr>
+            <td class="data-info"> {{ cit.id }}</td>
+            <td class="data-info"> {{ cit.city }}</td>
+            <td class="data-info"> {{ cit.num }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<script src="{{ url_for('static', filename='js/table-sort.js') }}"> </script>
+{% endblock %}
